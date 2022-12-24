@@ -1,0 +1,30 @@
+.grayContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f8fc;
+}
+
+.grayContainer {
+  display: flex;
+  background-color: #ffffff;
+}
+
+
+.whiteWrapper {
+  display: flex;
+  flex-direction: column;
+  border-bottom-right-radius: 100px;
+  position: relative;
+}
+
+.grayWrapper {
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  position: relative;
+}
+
+.image {
+  z-index: 3;
+}

@@ -1,0 +1,36 @@
+.defaultClass {
+  width: 100%;
+  border-top: 1px solid;
+}
+
+.secondaryDivider {
+  border-top-color: #f7f8fc;
+}
+
+.primaryDivider {
+  border-top-color: #27D4A8;
+}
+
+.tertiaryDivider {
+  border-top-color: #d1d1d1;
+}
+
+.infoDivider {
+  border-top-color: #84bffc;
+}
+
+.dangerDivider {
+  border-top-color: #d32f2f;
+}
+
+.warningDivider {
+  border-top-color: #ED6C02;
+}
+
+.controlDivider {
+  border-top-color: #ffffff;
+}
+
+.successDivider {
+  border-top-color: #4caf50;
+}
