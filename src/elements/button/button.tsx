@@ -34,7 +34,7 @@ const Loading = () => {
  * @param dataTestId
  * @constructor
  */
-const Button = (
+export const Button = (
   {
     children,
     color = "info",

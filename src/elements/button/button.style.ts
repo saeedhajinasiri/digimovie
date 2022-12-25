@@ -67,7 +67,7 @@ export const SHAPES = ({size, shape}: { size: Size, shape: Shape }) => {
   } else if (size === 'large') {
     className = `max-w-12 min-w-12 md:max-w-14 md:min-w-14 p-0 ${className}`;
   } else if (size === 'huge') {
-    className = `max-w-14 min-w-14 md:max-w-16 md:min-w-16 p-0 ${className}`;
+    className = `max-w-[56px] min-w-[56px] md:max-w-[64px] md:min-w-[64px] p-0 ${className}`;
   }
   return className;
 }
