@@ -3,7 +3,7 @@ import {RadioButtonProps} from './radio-button.props'
 import {COLORS, SIZES} from './radio-button.style'
 import classNames from "../../utils/helpers/class-names";
 
-const RadioButton = ({color = 'primary', value, name, size = 'medium', className, disabled = false, checked, onClick, ...rest}: RadioButtonProps) => {
+export const RadioButton = ({color = 'primary', value, name, size = 'medium', className, disabled = false, checked, onClick, ...rest}: RadioButtonProps) => {
   return (
     <input
       checked={checked}
