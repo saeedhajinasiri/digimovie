@@ -60,14 +60,17 @@ export const SHAPES = ({size, shape}: { size: Size, shape: Shape }) => {
   if (shape === 'rounded' || shape === 'circle') {
     className = 'rounded-full'
   }
-  if (size === 'small') {
-    className = `max-w-8 min-w-8 md:max-w-10 md:min-w-10 p-0 ${className}`;
-  } else if (size === 'medium') {
-    className = `max-w-10 min-w-10 md:max-w-12 md:min-w-12 p-0 ${className}`;
-  } else if (size === 'large') {
-    className = `max-w-12 min-w-12 md:max-w-14 md:min-w-14 p-0 ${className}`;
-  } else if (size === 'huge') {
-    className = `max-w-[56px] min-w-[56px] md:max-w-[64px] md:min-w-[64px] p-0 ${className}`;
+
+  if (shape === 'circle' || shape === 'square') {
+    if (size === 'small') {
+      className = `max-w-[32px] min-w-[32px] md:max-w-[40px] md:min-w-[40px] p-0 ${className}`;
+    } else if (size === 'medium') {
+      className = `max-w-[40px] min-w-[40px] md:max-w-[48px] md:min-w-[48px] p-0 ${className}`;
+    } else if (size === 'large') {
+      className = `max-w-[48px] min-w-[48px] md:max-w-[56px] md:min-w-[56px] p-0 ${className}`;
+    } else if (size === 'huge') {
+      className = `max-w-[56px] min-w-[56px] md:max-w-[64px] md:min-w-[64px] p-0 ${className}`;
+    }
   }
   return className;
 }
