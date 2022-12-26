@@ -21,6 +21,14 @@ export const COLORS = {
   inherit: 'bg-transparent hover:bg-transparent'
 };
 
+export const SHAPE_SIZES = {
+  huge: 'btn-shape-huge',
+  large: 'btn-shape-large',
+  medium: 'btn-shape-medium',
+  small: 'btn-shape-small',
+  tiny: 'btn-shape-tiny',
+};
+
 /**
  *
  * @param disabled
@@ -62,7 +70,7 @@ export const SHAPES = ({size, shape}: { size: Size, shape: Shape }) => {
   }
 
   if (shape === 'circle' || shape === 'square') {
-    className = `btn-shape-${size} ${className}`;
+    className = `${SHAPE_SIZES[size]} ${className}`;
   }
   return className;
 }
