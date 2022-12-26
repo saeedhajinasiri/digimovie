@@ -1,6 +1,6 @@
 {
   "name": "pb-ui-kit",
-  "version": "0.1.30",
+  "version": "0.1.33",
   "dependencies": {
     "@emotion/styled": "~11.8.1",
     "@emotion/react": "~11.9.0",
@@ -34,9 +34,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-transition-group": "^4.4.5",
-    "typescript": "^4.9.4",
-    "web-vitals": "^2.1.4",
-    "webpack": "^5.75.0"
+    "typescript": "^4.9.4"
   },
   "scripts": {
     "start": "react-scripts start",
