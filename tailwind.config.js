@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -130,5 +132,120 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({addComponents}) {
+      addComponents({
+        '.btn-huge': {
+          height: '56px',
+          '@media (min-width: 640px)': {
+            height: '56px',
+          },
+          '@media (min-width: 1024px)': {
+            height: '64px',
+          }
+        },
+        '.btn-large': {
+          height: '48px',
+          '@media (min-width: 640px)': {
+            height: '48px',
+          },
+          '@media (min-width: 1024px)': {
+            height: '56px',
+          }
+        },
+        '.btn-medium': {
+          height: '40px',
+          '@media (min-width: 640px)': {
+            height: '40px',
+          },
+          '@media (min-width: 1024px)': {
+            height: '48px',
+          }
+        },
+        '.btn-small': {
+          height: '32px',
+          '@media (min-width: 640px)': {
+            height: '32px',
+          },
+          '@media (min-width: 1024px)': {
+            height: '40px',
+          }
+        },
+        '.btn-tiny': {
+          height: '24px',
+          '@media (min-width: 640px)': {
+            height: '24px',
+          },
+          '@media (min-width: 1024px)': {
+            height: '32px',
+          }
+        },
+        '.btn-shape-huge': {
+          maxWidth: '56px',
+          minWidth: '56px',
+          padding: 0,
+          '@media (min-width: 640px)': {
+            maxWidth: '56px',
+            minWidth: '56px',
+          },
+          '@media (min-width: 1024px)': {
+            maxWidth: '64px',
+            minWidth: '64px',
+          }
+        },
+        '.btn-shape-large': {
+          maxWidth: '48px',
+          minWidth: '48px',
+          padding: 0,
+          '@media (min-width: 640px)': {
+            maxWidth: '48px',
+            minWidth: '48px',
+          },
+          '@media (min-width: 1024px)': {
+            maxWidth: '56px',
+            minWidth: '56px',
+          }
+        },
+        '.btn-shape-medium': {
+          maxWidth: '40px',
+          minWidth: '40px',
+          padding: 0,
+          '@media (min-width: 640px)': {
+            maxWidth: '40px',
+            minWidth: '40px',
+          },
+          '@media (min-width: 1024px)': {
+            maxWidth: '48px',
+            minWidth: '48px',
+          }
+        },
+        '.btn-shape-small': {
+          maxWidth: '32px',
+          minWidth: '32px',
+          padding: 0,
+          '@media (min-width: 640px)': {
+            maxWidth: '32px',
+            minWidth: '32px',
+          },
+          '@media (min-width: 1024px)': {
+            maxWidth: '40px',
+            minWidth: '40px',
+          }
+        },
+        '.btn-shape-tiny': {
+          maxWidth: '24px',
+          minWidth: '24px',
+          padding: 0,
+          '@media (min-width: 640px)': {
+            maxWidth: '24px',
+            minWidth: '24px',
+          },
+          '@media (min-width: 1024px)': {
+            maxWidth: '32px',
+            minWidth: '32px',
+          }
+        }
+      })
+    })
+  ],
 }

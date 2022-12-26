@@ -1,11 +1,11 @@
 import {FontColor, Shape, Size, Variant} from './button.props'
 
 export const SIZES = {
-  huge: 'h-14 md:h-16',
-  large: 'h-12 md:h-14',
-  medium: 'h-10 md:h-12',
-  small: 'h-8 md:h-10',
-  tiny: 'h-6 md:h-8',
+  huge: 'btn-huge',
+  large: 'btn-large',
+  medium: 'btn-medium',
+  small: 'btn-small',
+  tiny: 'btn-tiny',
 };
 
 export const COLORS = {
@@ -62,15 +62,7 @@ export const SHAPES = ({size, shape}: { size: Size, shape: Shape }) => {
   }
 
   if (shape === 'circle' || shape === 'square') {
-    if (size === 'small') {
-      className = `max-w-[32px] min-w-[32px] md:max-w-[40px] md:min-w-[40px] p-0 ${className}`;
-    } else if (size === 'medium') {
-      className = `max-w-[40px] min-w-[40px] md:max-w-[48px] md:min-w-[48px] p-0 ${className}`;
-    } else if (size === 'large') {
-      className = `max-w-[48px] min-w-[48px] md:max-w-[56px] md:min-w-[56px] p-0 ${className}`;
-    } else if (size === 'huge') {
-      className = `max-w-[56px] min-w-[56px] md:max-w-[64px] md:min-w-[64px] p-0 ${className}`;
-    }
+    className = `btn-shape-${size} ${className}`;
   }
   return className;
 }
