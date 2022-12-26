@@ -70,12 +70,6 @@ module.exports = {
       'sm': '640px',
       'md': '1024px',
     },
-    fontFamily: {
-      'sans-regular': 'IRANSansRegular',
-      'sans-medium': 'IRANSansMedium',
-      'sans-bold': 'IRANSansBold',
-      'sans-light': 'IRANSansLight',
-    },
     fontSize: {
       'm-xxs': '0.4rem',
       'm-xs': '0.5rem',
