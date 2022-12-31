@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: path.resolve(__dirname, 'src/lib/index.ts'),
   output: {
-    path: path.resolve(__dirname, './src/lib'),
+    path: path.resolve(__dirname, './dist'),
     filename: 'index.ts',
     library: '',
     libraryTarget: 'commonjs'

@@ -1,13 +1,10 @@
 import React from 'react'
-import styles from './divider.module.css'
-import {DividerProps} from './divider.props'
 
-export const Divider = (props: DividerProps) => {
+export const Divider = () => {
 
-  const className = `${props.color}Divider`
 
   return (
-    <div className={`${styles[className]} ${styles.defaultClass}`}/>
+    <div/>
   )
 }
 

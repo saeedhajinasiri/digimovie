@@ -4,7 +4,7 @@ import classNames from "../../utils/helpers/class-names";
 import {COLORS, HOVER_COLORS, SIZES, VARIANTS} from "./select.style";
 
 
-const Select = ({defaultText, optionsList, value, onChange, id, text, color = 'tertiary', variant = 'outlined', disabled = false, size = 'medium'}: SelectProps) => {
+const Select = ({defaultText, optionsList, value, onChange, id, text, color = 'tertiary', variant = 'outlined', size = 'medium'}: SelectProps) => {
   const wrapperRef = useRef<HTMLDivElement>(null);
   const [selectedText, setSelectedText] = useState<string>(defaultText || 'انتخاب کنید')
   const [show, setShow] = useState<boolean>(false)
