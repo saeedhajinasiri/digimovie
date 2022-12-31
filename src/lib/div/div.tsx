@@ -1,13 +1,9 @@
 import React, {forwardRef} from 'react';
 import {DivProps} from './div.props'
-import styles from './div.module.css'
 
 const Div = forwardRef<any, DivProps>(function Div(props, ref) {
-  const {children, className = '', style, onClick, mobile, tablet, desktop, dangerouslySetInnerHTML, dataTestId, role, id, onMouseOver, onMouseLeave, ...rest} = props;
+  const {children, style, onClick, mobile, tablet, desktop, dangerouslySetInnerHTML, dataTestId, role, id, onMouseOver, onMouseLeave, ...rest} = props;
 
-  const desktopDirection = desktop ? `${styles[`${desktop}DesktopClass`]}` : ``;
-  const tabletDirection = tablet ? `${styles[`${tablet}TabletClass`]}` : ``;
-  const mobileDirection = mobile ? `${styles[`${mobile}MobileClass`]}` : ``;
 
   return (
     <div
@@ -17,7 +13,6 @@ const Div = forwardRef<any, DivProps>(function Div(props, ref) {
       dangerouslySetInnerHTML={dangerouslySetInnerHTML}
       onClick={onClick}
       style={style}
-      className={`${styles.defaultClass} ${desktopDirection} ${tabletDirection} ${mobileDirection} ${className}`}
       ref={ref}
       onMouseOver={onMouseOver}
       onMouseLeave={onMouseLeave}

@@ -26,7 +26,6 @@ import LoadingIndicator from './loading-indicator'
 import AutoComplete from './auto-complete'
 import SwitchBox from './switch-box'
 import ToggleButtonGroup from './toggle-button-group'
-import Media from './media'
 import {Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from './table'
 import CurveContainer from "./curve-container";
 import Alert from './alert'
@@ -64,7 +63,6 @@ export {
   AutoComplete,
   SwitchBox,
   ToggleButtonGroup,
-  Media,
   Table,
   TableCell,
   TableRow,
