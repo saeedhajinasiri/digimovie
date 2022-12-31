@@ -16,7 +16,7 @@
     "declaration": true,
     "sourceMap": true,
     "rootDir": "./src",
-    "outDir": "./dist",
+    "outDir": "./src/dist",
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
