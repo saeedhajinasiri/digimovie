@@ -1,9 +1,12 @@
 {
   "name": "pb-ui-kit",
-  "version": "0.1.41",
+  "version": "0.1.42",
   "main": "./src/lib/index.ts",
   "author": "PezeshkBook Company",
-  "license": "ISC",
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
   "dependencies": {
     "@emotion/react": "~11.9.0",
     "@emotion/styled": "~11.8.1",
@@ -65,16 +68,9 @@
       }
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }
