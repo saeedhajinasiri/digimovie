@@ -1,6 +1,6 @@
 {
   "name": "pb-ui-kit",
-  "version": "0.1.42",
+  "version": "0.1.43",
   "main": "./src/lib/index.ts",
   "author": "PezeshkBook Company",
   "license": "MIT",
