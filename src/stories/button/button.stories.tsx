@@ -1,7 +1,7 @@
 import React from 'react';
 import {ComponentMeta, ComponentStory} from '@storybook/react';
 import {Button} from './button';
-import {ButtonProps} from "../../elements/button/button.props";
+import {ButtonProps} from "../../lib/button/button.props";
 
 export default {
   title: 'PB Kit/Atoms/Button',

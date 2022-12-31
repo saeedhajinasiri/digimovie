@@ -1,12 +1,17 @@
 {
   "name": "pb-ui-kit",
-  "version": "0.1.33",
+  "version": "0.1.38",
+  "main": "./src/lib/index.ts",
+  "author": "PezeshkBook Company",
+  "license": "ISC",
   "dependencies": {
-    "@emotion/styled": "~11.8.1",
     "@emotion/react": "~11.9.0",
+    "@emotion/styled": "~11.8.1",
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
     "@storybook/addon-actions": "^6.5.15",
     "@storybook/addon-essentials": "^6.5.15",
     "@storybook/addon-interactions": "^6.5.15",

@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import {ModalProps} from './modal.props'
-import {Div} from '../../elements'
+import Div from '../div'
 import classNames from "../../utils/helpers/class-names";
 
 const Modal = ({open, children, onClose, className, ...rest}: ModalProps) => {

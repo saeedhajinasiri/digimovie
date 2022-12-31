@@ -1,7 +1,7 @@
 import React from 'react';
 import {ComponentMeta, ComponentStory} from '@storybook/react';
 import {RadioButton} from './radio-button';
-import {RadioButtonProps} from "../../elements/radio-button/radio-button.props";
+import {RadioButtonProps} from "../../lib/radio-button/radio-button.props";
 
 export default {
   title: 'PB Kit/Atoms/RadioButton',

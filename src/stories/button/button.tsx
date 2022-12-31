@@ -1,6 +1,6 @@
 import React from 'react';
-import CustomButton from '../../elements/button/button'
-import {ButtonProps} from "../../elements/button/button.props";
+import CustomButton from '../../lib/button/button'
+import {ButtonProps} from "../../lib/button/button.props";
 
 /**
  * Primary UI component for user interaction

@@ -1,6 +1,6 @@
 import React from 'react';
 import {ComponentMeta, ComponentStory} from '@storybook/react';
-import {ToggleButton} from '../../elements/toggle-button/toggle-button'
+import {ToggleButton} from '../../lib/toggle-button/toggle-button'
 
 export default {
   title: 'PB Kit/Atoms/ToggleButton',
