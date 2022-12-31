@@ -23,7 +23,6 @@ import Checkbox from './checkbox'
 import OptionItem from './option-item'
 import ToggleButton from './toggle-button'
 import LoadingIndicator from './loading-indicator'
-import AutoComplete from './auto-complete'
 import SwitchBox from './switch-box'
 import ToggleButtonGroup from './toggle-button-group'
 import {Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from './table'
@@ -60,7 +59,6 @@ export {
   OptionItem,
   ToggleButton,
   LoadingIndicator,
-  AutoComplete,
   SwitchBox,
   ToggleButtonGroup,
   Table,

@@ -60,4 +60,6 @@ export const SIZES = ({width, height, tabletWidth, tabletHeight, mobileWidth, mo
   if (width && height) {
     return `md:w-[${width}] md:h-[${height}]`;
   }
+
+  return null;
 }

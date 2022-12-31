@@ -1,7 +1,7 @@
 import React, {ReactNode} from 'react'
 
 
-export const ToggleButton = ({children, value}: { children: ReactNode, value: string }) => {
+export const ToggleButton = ({children}: { children: ReactNode, value: string }) => {
 
   return (
     <div>

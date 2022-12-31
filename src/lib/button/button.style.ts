@@ -55,6 +55,8 @@ export const VARIANTS = ({disabled, variants, color}: { disabled: boolean, varia
   if (!disabled && variants === 'contained') {
     return `${color === "black" ? 'text-black' : '!text-white'} text-m-sm border-none hover:text-white md:text-d-sm flex`
   }
+
+  return null;
 }
 
 /**
