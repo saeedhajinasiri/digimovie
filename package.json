@@ -1,6 +1,6 @@
 {
   "name": "pb-ui-kit",
-  "version": "0.2.14",
+  "version": "0.2.23",
   "main": "./dist/index.js",
   "author": "PezeshkBook Company",
   "babel": {

@@ -1,6 +1,6 @@
 {
   "name": "pb-ui-kit",
-  "version": "0.2.18",
+  "version": "0.2.31",
   "main": "./dist/index.js",
   "author": "PezeshkBook Company",
   "babel": {
@@ -45,7 +45,9 @@
     "start": "react-scripts start",
     "build": "tsc",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "config-fs": "node ./dist/config.js",
+    "postinstall": "npm run-script config-fs"
   },
   "eslintConfig": {
     "extends": [
